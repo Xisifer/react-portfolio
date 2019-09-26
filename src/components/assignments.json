@@ -4,7 +4,8 @@
         "title": "Test project",
         "description": "This is a test assignment",
         "image": "hello.jpg",
-        "github": "urlhere",
-        "livepage": "urlhere"
+        "github": "https://www.google.com",
+        "livepage": "https://old.reddit.com",
+        "livelabel": "Live Location"
     }
 ]

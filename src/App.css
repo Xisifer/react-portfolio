@@ -1,9 +1,20 @@
 .App {
   text-align: center;
 }
-
+#hellos {
+  color:yellow;
+}
 .App-logo {
   height: 40vmin;
+}
+.container {
+  max-width:100%;
+}
+#mainarea {
+  background-color:pink;
+}
+#sidecolumn {
+  background-color:green;
 }
 
 .App-header {
