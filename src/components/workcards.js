@@ -7,14 +7,14 @@ import {
 const WorkCard = (props) => {
   return (
     <React.Fragment>
-    <div>
+    <div className="cardDiv">
       <Card>
         <CardImg top width="100%" src={props.image} alt="Card image cap" />
         <CardBody>
           <CardTitle>{props.title}</CardTitle>
           <CardText>{props.description}</CardText>
           <Button href={props.github}>GitHub Link</Button>
-          <Button href={props.livepage}>{props.livelabel}</Button>
+          <Button href={props.livepage}>Live Site{props.livelabel}</Button>
         </CardBody>
       </Card>
     </div>

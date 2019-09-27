@@ -1,11 +1,75 @@
 [
     {
         "id": 1,
-        "title": "Test project",
-        "description": "This is a test assignment",
-        "image": "hello.jpg",
-        "github": "https://www.google.com",
-        "livepage": "https://old.reddit.com",
-        "livelabel": "Live Location"
+        "title": "Guessing Game",
+        "description": "A simple guessing game that randomly selects a keyboard letter, then reads the player's inputs to determine correct guesses.",
+        "image": "https://eslspeaking.org/wp-content/uploads/2015/03/download-4.jpg",
+        "github": "https://github.com/Xisifer/PsychicGame",
+        "livepage": "https://xisifer.github.io/PsychicGame/index.html",
+        "livelabel": "GitHub Pages Link"
+    },
+    {
+        "id": 2,
+        "title": "Crystal Gem Game",
+        "description": "A simple guessing game that randomly reassigns HTML attribute values and selects a target value. The player must perform simple arithmetic to press the buttons with the correct numbers in order to match the target value.",
+        "image": "../images/gems.jpg",
+        "github": "https://xisifer.github.io/unit-4-game/index.html",
+        "livepage": "https://xisifer.github.io/unit-4-game/index.html",
+        "livelabel": "GitHub Pages Link"
+    },
+    {
+        "id": 3,
+        "title": "Star Wars Trivia Game",
+        "description": "A timed Trivia game based on the Star Wars property. Utilizes timeout scripts to dynamically update the webpage without requiring a refresh.",
+        "image": "./components/images/SWthumbnail.jpg",
+        "github": "https://github.com/Xisifer/TriviaGame",
+        "livepage": "https://xisifer.github.io/TriviaGame/index.html",
+        "livelabel": "GitHub Pages Link"
+    },
+    {
+        "id": 4,
+        "title": "Animated Gif Generator",
+        "description": "An exercise in sampling from extenal APIs. Pulls a random assortment of animaged gifs from the Giphy API, and allows the user to insert custom search buttons that dynamically update on the page.",
+        "image": "https://giphy.com/static/img/giphy_logo_square_social.png",
+        "github": "https://github.com/Xisifer/Week6HW",
+        "livepage": "https://xisifer.github.io/Week6HW/index.html",
+        "livelabel": "GitHub Pages Link"
+    },
+    {
+        "id": 5,
+        "title": "Train Timer",
+        "description": "A train scheduling app utilizing Google Firebase and Moment.JS to create and maintain a live-update database of trains and calculate their arrival times.",
+        "image": "./images/train.jpg",
+        "github": "https://xisifer.github.io/Week7HW/index.html",
+        "livepage": "https://xisifer.github.io/Week7HW/index.html",
+        "livelabel": "GitHub Pages Link"
+    },
+    {
+        "id": 6,
+        "title": "LIRI",
+        "description": "An Axios and Node.JS terminal program that uses external APIs (Spotify and OMDB) to read user input and display search results in the console.",
+        "image": "./components/images/liri.jpg",
+        "github": "https://github.com/Xisifer/LIRI",
+        "livepage": "https://imgur.com/a/ofl5eCC",
+        "livelabel": "Hosted image gallery demonstrating functionality"
+    },
+    {
+        "id": 7,
+        "title": "Bamazon",
+        "description": "A MySQL and Node.JS terminal program that hosts a database of fictional products, then uses conditional logic and user inputs to guide the user through a product purchase flow.",
+        "image": "https://imgur.com/a/bd2nHB4",
+        "github": "https://github.com/Xisifer/Week12HW-Bamazon",
+        "livepage": "https://imgur.com/a/bd2nHB4",
+        "livelabel": "Hosted image gallery demonstrating functionality"
+    },
+    {
+        "id": 8,
+        "title": "Character Clicker Memory Game",
+        "description": "A React.JS game program that dynamically generates, updates and randomizes an array of character cards, remembers the list of selected characters, and tasks the player with clicking on unique characters without repeating past selections.",
+        "image": "https://static-s.aa-cdn.net/img/ios/1239299402/13a58bb6594806c64fd2cd2151fed705",
+        "github": "https://github.com/Xisifer/Week14HW-ClickyGame",
+        "livepage": "http://charclicker.herokuapp.com",
+        "livelabel": "Heroku App Link"
     }
+    
 ]

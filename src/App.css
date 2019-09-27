@@ -11,10 +11,13 @@
   max-width:100%;
 }
 #mainarea {
-  background-color:pink;
+  /* background-color:pink; */
+  margin:auto;
+  height:100%;
 }
 #sidecolumn {
-  background-color:green;
+  /* background-color:green; */
+  height:100%;
 }
 
 .App-header {
