@@ -1,21 +1,32 @@
-// import {OverlayTrigger, Button, Popover} from "react-bootstrap";
+import {ButtonToolbar, OverlayTrigger, Button, Popover} from "react-bootstrap";
+import React, { Component } from "react";
 
-// const popover = (
-//   <Popover id="popover-basic">
-//     <Popover.Title as="h3">Popover right</Popover.Title>
-//     <Popover.Content>
-//       And here's some <strong>amazing</strong> content. It's very engaging.
-//       right?
-//     </Popover.Content>
-//   </Popover>
-// );
 
-// const Contact = () => (
-//   <OverlayTrigger trigger="click" placement="right" overlay={popover}>
-//     <Button variant="success">Click me to see</Button>
-//   </OverlayTrigger>
-// );
+class ContactButton extends Component {
+    render() {
+        return (
+                
+                <ButtonToolbar>
+                {['left'].map(placement => (
+                  <OverlayTrigger
+                    trigger="click"
+                    key={placement}
+                    placement={placement}
+                    overlay={
+                      <Popover id={`popover-positioned-${placement}`}>
+                        <Popover.Title as="h3">Contact Info</Popover.Title>
+                        <Popover.Content>
+                          <strong>Email:</strong> HONK@gmail.com
+                        </Popover.Content>
+                      </Popover>
+                    }
+                  >
+                    <Button variant="secondary" id="contactButton">Contact Info</Button>
+                  </OverlayTrigger>
+                ))}
+              </ButtonToolbar>
+        )
+    }
+}
 
-// export default Contact;
-
-// render(<Example />);
+export default ContactButton;

@@ -34,7 +34,7 @@ class Menubar extends React.Component {
         <div className="container">
           <div className="row">
             <div className="row">
-                WORLD WORLD
+                {/* WORLD WORLD */}
             </div>
           </div>
         </div>

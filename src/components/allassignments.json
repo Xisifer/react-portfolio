@@ -27,6 +27,24 @@
         "livelabel": "Live Link"
     },
     {
+        "id": 4,
+        "title": "Guessing Game",
+        "description": "A simple guessing game that randomly selects a keyboard letter, then reads the player's inputs to determine correct guesses.",
+        "image": "./assets/images/psychic.jpg",
+        "github": "https://github.com/Xisifer/PsychicGame",
+        "livepage": "https://xisifer.github.io/PsychicGame/index.html",
+        "livelabel": "GitHub Pages Link"
+    },
+    {
+        "id": 5,
+        "title": "Crystal Gem Game",
+        "description": "A simple guessing game that randomly reassigns HTML attribute values and selects a target value. The player must perform simple arithmetic to press the buttons with the correct numbers in order to match the target value.",
+        "image": "./assets/images/gems.jpg",
+        "github": "https://xisifer.github.io/unit-4-game/index.html",
+        "livepage": "https://xisifer.github.io/unit-4-game/index.html",
+        "livelabel": "GitHub Pages Link"
+    },
+    {
         "id": 6,
         "title": "Star Wars Trivia Game",
         "description": "A timed Trivia game based on the Star Wars property. Utilizes timeout scripts to dynamically update the webpage without requiring a refresh.",
@@ -61,6 +79,15 @@
         "github": "https://github.com/Xisifer/LIRI",
         "livepage": "https://imgur.com/a/ofl5eCC",
         "livelabel": "Hosted image gallery"
+    },
+    {
+        "id": 10,
+        "title": "Bamazon",
+        "description": "A MySQL and Node.JS terminal program that hosts a database of fictional products, then uses conditional logic and user inputs to guide the user through a product purchase flow.",
+        "image": "./assets/images/bamazon.jpg",
+        "github": "https://github.com/Xisifer/Week12HW-Bamazon",
+        "livepage": "https://imgur.com/a/bd2nHB4",
+        "livelabel": "Hosted image gallery  "
     },
     {
         "id": 11,

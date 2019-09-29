@@ -15,8 +15,130 @@ body {
   margin-right: 5rem;
   margin-bottom: 2rem;
   border-radius: 5rem;
-  top: -220px;
   position: relative;
+}
+.col-md-3 {
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.popover {
+  padding:10px 10px 10px 10px;
+}
+
+#sidecolumn {
+  background-color:linear-gradient( rgba(0,0,0,0),rgba(40,40,40,0.4));
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,000000+43&0+0,0.4+44 */
+  background: -moz-linear-gradient(left,  rgba(30,87,153,0) 0%, rgba(0,0,0,0.39) 43%, rgba(0,0,0,0.4) 44%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(30,87,153,0) 0%,rgba(0,0,0,0.39) 43%,rgba(0,0,0,0.4) 44%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(30,87,153,0) 0%,rgba(0,0,0,0.39) 43%,rgba(0,0,0,0.4) 44%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#66000000',GradientType=1 ); /* IE6-9 */
+
+  height: 100%;
+  top:0;
+  bottom:0;
+  right: 0px;
+  position: sticky;
+  margin-right: 0px;
+  width: 100%;
+}
+
+#aboutMeButton {
+  right: 3rem;
+  top: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: fixed;
+
+  background-color:rgba(50,50,50,0.8);
+  border-color:rgba(50,50,50,0.4);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-weight:500;
+  font-size:25px;
+}
+
+#portfolioButton {
+  right: 3rem;
+  top: 15rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: fixed;
+
+  background-color:rgba(50,50,50,0.8);
+  border-color:rgba(50,50,50,0.4);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-weight:500;
+  font-size:25px;
+}
+
+#contactButton {
+  right: 3rem;
+  top: 25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: fixed;
+
+  background-color:rgba(50,50,50,0.8);
+  border-color:rgba(50,50,50,0.4);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-weight:500;
+  font-size:25px;
+}
+
+#resumeButton {
+  right: 3rem;
+  top: 35rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: fixed;
+
+  background-color:rgba(50,50,50,0.8);
+  border-color:rgba(50,50,50,0.4);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-weight:500;
+  font-size:25px;
+}
+
+#homeworkButton {
+  right: 3rem;
+  top:45rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: fixed;
+
+  background-color:rgba(50,50,50,0.8);
+  border-color:rgba(50,50,50,0.4);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-weight:250;
+  font-size:15px;
+}
+
+
+.btn {
+  color: #fff;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #6c757d;
+
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+#cardarea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 #portrait {
   display: inline-block;
@@ -32,7 +154,7 @@ body {
 }
 #aboutMe {
   margin-top:5%;
-  display:inline-block;
+  display:flex;
   width:100%;
   font-family: 'Rajdhani', sans-serif;
 }
@@ -46,9 +168,27 @@ body {
   background-size: cover;
 }
 
+
+
 .cardarea {
   width:1000px;
   height:auto;
+}
+.card-body {
+  background-color: rgba(255,255,255,0.4);
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  
+  background-clip: border-box;
+  border: 10px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  margin-top: 50px;
+  min-height:655px;
 }
 
 .cardDiv {
@@ -58,4 +198,5 @@ body {
 .card-img-top {
   width:200px;
   height:auto;
+  margin: auto;
 }

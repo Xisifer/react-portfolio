@@ -14,7 +14,8 @@ const WorkCard = (props) => {
           <CardTitle>{props.title}</CardTitle>
           <CardText>{props.description}</CardText>
           <Button href={props.github}>GitHub Link</Button>
-          <Button href={props.livepage}>Live Site{props.livelabel}</Button>
+          <br/>
+          <Button href={props.livepage}>{props.livelabel}</Button>
         </CardBody>
       </Card>
     </div>

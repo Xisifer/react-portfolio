@@ -1,104 +1,53 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {ButtonToolbar, Container, Row, Col, OverlayTrigger, Button, Popover} from "react-bootstrap";
+import {Container, Row, Col, Button} from "react-bootstrap";
 import React, { Component } from "react";
 import './App.css';
 import "./index.css";
-import Menubar from "./components/sidebar.js";
-import WorkCard from "./components/workcards.js";
-import assignments from "./components/assignments.json";
+import {BrowserRouter, Route, Link} from "react-router-dom";
+import AboutMe from "./components/aboutme.js";
+import Portfolio from "./components/portfolio.js";
+import AllWork from "./components/allwork.js";
+import ContactButton from "./components/contact.js";
+import pdf from "./components/files/Scott_Finlay_Resume.PDF";
 
 
 class App extends Component {
-  state = {
-    assignments:assignments
-  };
 
   render() {
     return (
-      <React.Fragment>
+      <BrowserRouter>
         <Container>
           <Row>
-            <Col md={10}>
-            <div id="mainarea">
-
-                <div id="aboutMe">
-                  <div id="portrait">
-                    <img src="https://i.imgur.com/Qn08T7j.jpg" alt="My Portrait" />
-                  </div>
-                  <div id="biography">
-                    <p id="nameplate">Scott Finlay</p>
-                    <p>Hello!</p>
-                    <p>I am a Full-Stack junior Web Developer with a solid grasp of both front-end and back-end design, and a strong background in software Quality Assurance. Currently based in Austin, Texas, I am passionate about perfection and experienced in collaborating with others, including different disciplines and specialties, to deliver the highest possible quality product for the end user experience. </p>
-                    <p>I'm skilled at working under tight deadlines and in changing quickly to adapt to rapidly-developing, Live Environment situations. Excited to implement my background in Quality Assurance to help cooperate between departments and teams, I keep the public-facing result of our work as a top priority during all stages of development.</p>
-                    <p>Key Skills:</p>
-                    <ul>
-                      <li>
-                        HTML / css
-                      </li>
-                      <li>
-                        JavaScript
-                      </li>
-                      <ul>
-                        <li>
-                          Node.JS
-                        </li>
-                        <li>
-                          Moment.js
-                        </li>
-                        <li>
-                          Cheerio.JS
-                        </li>
-                      </ul>
-                    </ul>
-                  </div>
-                </div>
-                <div id="cardarea">
-                  {this.state.assignments.map(assignment => (
-                    <WorkCard 
-                    key={assignment.id}
-                    id={assignment.id}
-                    title={assignment.title}
-                    description={assignment.description}
-                    image={assignment.image}
-                    github={assignment.github}
-                    livepage={assignment.livepage}
-                    />
-                  ))}
-                </div>
+            <Col md={9}>
+              <div id="mainarea">
+                  <Route exact path="/" component={AboutMe}/>
+                  <Route exact path="/portfolio" component={Portfolio} />
+                  <Route exact path="/homework" component={AllWork} />
               </div>
-
             </Col>
-            <Col md={2}>
-              <div id="sidecolumn">              
-              <ButtonToolbar>
-                {['left'].map(placement => (
-                  <OverlayTrigger
-                    trigger="click"
-                    key={placement}
-                    placement={placement}
-                    overlay={
-                      <Popover id={`popover-positioned-${placement}`}>
-                        <Popover.Title as="h3">Contact Info</Popover.Title>
-                        <Popover.Content>
-                          <strong>Email:</strong> example@gmail.com
-                        </Popover.Content>
-                      </Popover>
-                    }
-                  >
-                    <Button variant="secondary">Contact Info</Button>
-                  </OverlayTrigger>
-                ))}
-              </ButtonToolbar>
+            <Col md={3}>
+              <div id="sidecolumn">
+                <Link to = "/">
+                  <Button id="aboutMeButton">About Me</Button>
+                </Link> 
+                <Link to = "/portfolio">
+                  <Button id="portfolioButton">Portfolio</Button> 
+                </Link>
+                <ContactButton />
+                <Link to = {pdf} >
+                  <Button id="resumeButton">My Resume</Button>
+                </Link>
+                <Link to = "/homework" >
+                  <Button id="homeworkButton">Complete<br/>Assignment<br/>Listing</Button>
+                </Link>
+
               </div>
             </Col>
           </Row>
         </Container>
-         <Menubar/>
-
-
-      </React.Fragment>
+      </BrowserRouter>
 
     
     );
