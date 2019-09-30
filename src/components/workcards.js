@@ -8,7 +8,7 @@ const WorkCard = (props) => {
   return (
     <React.Fragment>
     <div className="cardDiv">
-      <Card>
+      <Card style={{backgroundColor: "rgba(255,255,255,0.2"}}>
         <CardImg top width="100%" src={props.image} alt="Card image cap" />
         <CardBody>
           <CardTitle>{props.title}</CardTitle>

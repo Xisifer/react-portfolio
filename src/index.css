@@ -217,13 +217,13 @@ body {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(255,255,255,0.2);
   background-clip: border-box;
   border: 10px solid rgba(0,0,0,.125);
   border-radius: .25rem;
   margin-top: 50px;
   min-height:655px;
 }
+
 
 .cardDiv {
   width:400px;

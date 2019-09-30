@@ -38,10 +38,10 @@ class App extends Component {
                 <a href = "https://www.linkedin.com/in/scottfinlay/" >
                   <Button id="linkedinButton">LinkedIn</Button>
                 </a>
-                <a href="https://github.com/Xisifer" >
+                <a href="https://github.com/Xisifer">
                   <Button id="githubButton">GitHub</Button>
                 </a>
-                <a href = "https://xisifer.github.io/Scott_Finlay_Resume.PDF" >
+                <a href = "./assets/files/Scott_Finlay_Resume.PDF" download>
                   <Button id="resumeButton">My Resume</Button>
                 </a>
                 <Link to = "/homework" >

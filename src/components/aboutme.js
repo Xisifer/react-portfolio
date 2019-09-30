@@ -16,14 +16,29 @@ class AboutMe extends Component {
                         <p>Key Skills:</p>
                         <ul>
                             <li>
+                                React
+                            </li>
+                            <li>
+                                MySQL / Sequelize
+                            </li>
+                            <li>
+                                Google Firebase
+                            </li>
+                            <li>
                                 HTML / CSS
+                            </li>
+                            <li>
+                                jQuery
+                            </li>
+                            <li>
+                                Bootstrap
                             </li>
                             <li>
                                 JavaScript
                             </li>
                                 <ul>
                                     <li>
-                                    Node.JS
+                                    Node.JS / Express.JS
                                     </li>
                                     <li>
                                     Moment.JS
@@ -33,13 +48,7 @@ class AboutMe extends Component {
                                     </li>
                                 </ul>
                             <li>
-                                React
-                            </li>
-                            <li>
-                                MySQL
-                            </li>
-                            <li>
-                                MongoDB
+                                MongoDB / Mongoose
                             </li>
                         </ul>
                     </div>
