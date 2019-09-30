@@ -4,8 +4,6 @@ import React, { Component } from "react";
 class AboutMe extends Component {
     render() {
         return (
-                <div id="mainarea">
-
                     <div id="aboutMe">
                     <div id="portrait">
                         <img src="https://i.imgur.com/Qn08T7j.jpg" alt="My Portrait" />
@@ -17,27 +15,35 @@ class AboutMe extends Component {
                         <p>I'm skilled at working under tight deadlines and in changing quickly to adapt to rapidly-developing, Live Environment situations. Excited to implement my background in Quality Assurance to help cooperate between departments and teams, I keep the public-facing result of our work as a top priority during all stages of development.</p>
                         <p>Key Skills:</p>
                         <ul>
-                        <li>
-                            HTML / css
-                        </li>
-                        <li>
-                            JavaScript
-                        </li>
-                        <ul>
                             <li>
-                            Node.JS
+                                HTML / CSS
                             </li>
                             <li>
-                            Moment.js
+                                JavaScript
+                            </li>
+                                <ul>
+                                    <li>
+                                    Node.JS
+                                    </li>
+                                    <li>
+                                    Moment.JS
+                                    </li>
+                                    <li>
+                                    Cheerio.JS
+                                    </li>
+                                </ul>
+                            <li>
+                                React
                             </li>
                             <li>
-                            Cheerio.JS
+                                MySQL
                             </li>
-                        </ul>
+                            <li>
+                                MongoDB
+                            </li>
                         </ul>
                     </div>
                     </div>
-                </div>
         )
     }
 }

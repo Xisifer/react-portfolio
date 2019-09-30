@@ -10,7 +10,6 @@ import AboutMe from "./components/aboutme.js";
 import Portfolio from "./components/portfolio.js";
 import AllWork from "./components/allwork.js";
 import ContactButton from "./components/contact.js";
-import pdf from "./components/files/Scott_Finlay_Resume.PDF";
 
 
 class App extends Component {
@@ -36,9 +35,15 @@ class App extends Component {
                   <Button id="portfolioButton">Portfolio</Button> 
                 </Link>
                 <ContactButton />
-                <Link to = {pdf} >
+                <a href = "https://www.linkedin.com/in/scottfinlay/" >
+                  <Button id="linkedinButton">LinkedIn</Button>
+                </a>
+                <a href="https://github.com/Xisifer" >
+                  <Button id="githubButton">GitHub</Button>
+                </a>
+                <a href = "https://xisifer.github.io/Scott_Finlay_Resume.PDF" >
                   <Button id="resumeButton">My Resume</Button>
-                </Link>
+                </a>
                 <Link to = "/homework" >
                   <Button id="homeworkButton">Complete<br/>Assignment<br/>Listing</Button>
                 </Link>

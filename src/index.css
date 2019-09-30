@@ -58,7 +58,9 @@ body {
   font-weight:500;
   font-size:25px;
 }
-
+/* -----------------------------------------
+ALL THE BUTTONS!!
+-------------------------------------------- */
 #portfolioButton {
   right: 3rem;
   top: 15rem;
@@ -91,9 +93,41 @@ body {
   font-size:25px;
 }
 
+#linkedinButton {
+  right: 3rem;
+  top:30rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: fixed;
+
+  background-color:rgba(50,50,50,0.8);
+  border-color:rgba(50,50,50,0.4);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-weight:250;
+  font-size:15px;
+}
+
+#githubButton {
+  right: 3rem;
+  top:33rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: fixed;
+
+  background-color:rgba(50,50,50,0.8);
+  border-color:rgba(50,50,50,0.4);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-weight:250;
+  font-size:15px;
+}
+
 #resumeButton {
   right: 3rem;
-  top: 35rem;
+  top: 37rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
@@ -109,7 +143,7 @@ body {
 
 #homeworkButton {
   right: 3rem;
-  top:45rem;
+  top:44rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -131,9 +165,12 @@ body {
   border-radius: 10px;
   border-color: #6c757d;
 
+  margin-top: 10px;
   font-family: 'Orbitron', sans-serif;
 }
 
+/* -----------------------------------------
+-------------------------------------------- */
 
 #cardarea {
   display: flex;
@@ -174,16 +211,13 @@ body {
   width:1000px;
   height:auto;
 }
-.card-body {
-  background-color: rgba(255,255,255,0.4);
-}
 .card {
   position: relative;
   display: flex;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  
+  background-color: rgba(255,255,255,0.2);
   background-clip: border-box;
   border: 10px solid rgba(0,0,0,.125);
   border-radius: .25rem;
