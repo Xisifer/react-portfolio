@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {Container} from "react-bootstrap";
 
 
-class AboutMe extends Component {
+class AboutMeMobile extends Component {
     render() {
         return (
             <Container>
@@ -66,4 +66,4 @@ class AboutMe extends Component {
         )
     }
 }
-export default AboutMe;
+export default AboutMeMobile;

@@ -8,7 +8,7 @@ body {
 }
 
 #portrait > img {
-  width: 475px;
+  max-width: 300px;
   height:auto;
   margin-left: 5rem;
   margin-top: 2rem;
@@ -16,7 +16,10 @@ body {
   margin-bottom: 2rem;
   border-radius: 5rem;
   position: relative;
+  display: inline-block;
 }
+
+
 .col-md-3 {
   padding-left:0px;
   padding-right:0px;
@@ -178,8 +181,9 @@ ALL THE BUTTONS!!
   justify-content: space-evenly;
 }
 #portrait {
-  display: inline-block;
+  width:auto;
 }
+
 #nameplate {
   font-family: 'Questrial', sans-serif;
   font-size:50px;
@@ -195,6 +199,9 @@ ALL THE BUTTONS!!
   width:100%;
   font-family: 'Rajdhani', sans-serif;
 }
+/* #skills {
+  background-color:pink;
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -233,4 +240,27 @@ body {
   width:200px;
   height:auto;
   margin: auto;
+}
+
+/* ========================= */
+/* MEDIA QUERIES */
+
+@media (min-width:768px) and (orientation:portrait) {
+  #portrait > img {
+    top:0px;
+    left:0px;
+    width:150px;
+    border-radius:5px;
+    margin:0px;
+  }
+
+}
+@media(min-width:400px) and (orientation:portrait) {
+  #portrait > img {
+    top:0px;
+    left:0px;
+    width:400px;
+    border-radius:5px;
+    margin:0px;
+  }
 }
