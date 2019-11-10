@@ -45,7 +45,7 @@ class App extends Component {
                   <Button className="side-button" id="githubButton">GitHub</Button>
                 </a>
                 <a href = "./assets/files/Scott_Finlay_Resume.PDF" download>
-                  <Button className="side-button" id="resumeButton">My Resume</Button>
+                  <Button className="side-button" id="resumeButton">Download My Resume</Button>
                 </a>
                 <Link to = "/homework" >
                   <Button className="side-button" id="homeworkButton">Complete<br/>Assignment<br/>Listing</Button>
