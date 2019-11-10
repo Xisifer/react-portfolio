@@ -21,7 +21,7 @@
         "id": 3,
         "title": "GROUP PROJECT: V-STAT",
         "description": "A communications application to assist the vehicle repair process after an accident. Enables clear communication between Customers, Auto Body Shops and Insurance Companies during all stages of the job.",
-        "image": "https://github.com/JMo911/project3auth/blob/master/client/public/assets/images/VSTAT-logo2.png",
+        "image": "https://raw.githubusercontent.com/JMo911/project3auth/master/client/public/assets/images/VSTAT-logo2.png",
         "github": "https://github.com/JMo911/project3auth",
         "livepage": "https://vstatapp.herokuapp.com/",
         "livelabel": "Live Link"
