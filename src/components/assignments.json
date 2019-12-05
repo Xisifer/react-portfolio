@@ -13,14 +13,14 @@
         "title": "GROUP PROJECT: FurEver Home",
         "description": "A connections application that allows a user to preview pets available for adoption.",
         "image": "./assets/images/furever.jpg",
-        "github": "https://github.com/Xisifer/PsychicGame",
+        "github": "https://github.com/seanbelverstone/FurEver-Home",
         "livepage": "https://xisifer.github.io/PsychicGame/index.html",
         "livelabel": "GitHub Pages Link"
     },
     {
         "title": "GROUP PROJECT: V-STAT",
         "description": "A communications application to assist the vehicle repair process after an accident. Enables clear communication between Customers, Auto Body Shops and Insurance Companies during all stages of the job.",
-        "image": "https://raw.githubusercontent.com/JMo911/project3auth/master/client/public/assets/images/VSTAT-logo2.png",
+        "image": "https://i.imgur.com/uSePAap.png",
         "github": "https://github.com/JMo911/project3auth",
         "livepage": "https://vstatapp.herokuapp.com/",
         "livelabel": "Live Link"
