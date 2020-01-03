@@ -4,8 +4,8 @@
         "title": "GROUP PROJECT: Fridge Chef",
         "description": "A productivity application that allows the user to insert food items from their home, and retrieve a list of compatible recipes from an external API.",
         "image": "./assets/images/fridgecheflogo.png",
-        "github": "https://github.com/Xisifer/PsychicGame",
-        "livepage": "https://xisifer.github.io/PsychicGame/index.html",
+        "github": "https://github.com/Xisifer/fridge-chef",
+        "livepage": "https://xisifer.github.io/fridge-chef/",
         "livelabel": "GitHub Pages Link"
     },
     {
@@ -14,7 +14,7 @@
         "description": "A connections application that allows a user to preview pets available for adoption.",
         "image": "./assets/images/furever.jpg",
         "github": "https://github.com/seanbelverstone/FurEver-Home",
-        "livepage": "https://xisifer.github.io/PsychicGame/index.html",
+        "livepage": "",
         "livelabel": "GitHub Pages Link"
     },
     {

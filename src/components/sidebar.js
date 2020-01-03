@@ -1,40 +1,21 @@
 import React from "react";
-// import Sidebar from "react-sidebar";
  
 class Menubar extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     sidebarOpen: true
-  //   };
-  //   this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
-  // }
- 
-  // onSetSidebarOpen(open) {
-  //   this.setState({ sidebarOpen: open });
-  // }
-
-
-
-
-      // <Sidebar
-      //   sidebar={<b>Sidebar content</b>}
-      //   open={this.state.sidebarOpen}
-      //   onSetOpen={this.onSetSidebarOpen}
-      //   styles={{ sidebar: { background: "white" } }}
-      // >
-      //   <button onClick={() => this.onSetSidebarOpen(true)}>
-      //     Open sidebar
-      //   </button>
-      // </Sidebar>
- 
   render() {
     return (
+      <Menu>
+        <a id="home" className="menu-item" href="/">Home</a>
+        <a id="about" className="menu-item" href="/about">About</a>
+        <a id="contact" className="menu-item" href="/contact">Contact</a>
+        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+      </Menu>
+
+
+
       <React.Fragment>
         <div className="container">
           <div className="row">
             <div className="row">
-                {/* WORLD WORLD */}
             </div>
           </div>
         </div>
