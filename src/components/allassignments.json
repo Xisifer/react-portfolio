@@ -40,7 +40,7 @@
         "title": "Crystal Gem Game",
         "description": "A simple guessing game that randomly reassigns HTML attribute values and selects a target value. The player must perform simple arithmetic to press the buttons with the correct numbers in order to match the target value.",
         "image": "./assets/images/gems.jpg",
-        "github": "https://xisifer.github.io/unit-4-game/index.html",
+        "github": "https://github.com/Xisifer/unit-4-game",
         "livepage": "https://xisifer.github.io/unit-4-game/index.html",
         "livelabel": "GitHub Pages Link"
     },
