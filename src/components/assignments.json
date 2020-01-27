@@ -48,7 +48,7 @@
         "title": "Train Timer",
         "description": "A train scheduling app utilizing Google Firebase and Moment.JS to create and maintain a live-update database of trains and calculate their arrival times.",
         "image": "./assets/images/train.jpg",
-        "github": "https://xisifer.github.io/Week7HW/index.html",
+        "github": "https://github.com/Xisifer/Week7HW",
         "livepage": "https://xisifer.github.io/Week7HW/index.html",
         "livelabel": "GitHub Pages Link"
     },
