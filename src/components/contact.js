@@ -16,7 +16,7 @@ class ContactButton extends Component {
                       <Popover id={`popover-positioned-${placement}`}>
                         <Popover.Title as="h3">Contact Info</Popover.Title>
                         <Popover.Content>
-                          <strong>Email:</strong> HONK@gmail.com
+                          <strong>Email:</strong> scottfinlay@protonmail.com
                         </Popover.Content>
                       </Popover>
                     }
